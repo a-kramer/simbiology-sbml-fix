@@ -1,5 +1,3 @@
-# Simbiology sbml Fix
-
 # Fix for MATLAB&trade; SBML
 
 MATLAB&reg;'s Simbiology&reg; toolbox generates sbml code that doesn't work very well and doesn't look very nice (and it cannot be imported into Copasi).
@@ -7,6 +5,8 @@ MATLAB&reg;'s Simbiology&reg; toolbox generates sbml code that doesn't work very
 This `R` script fixes most of the issues. The resulting `sbml` file can be imported into Copasi without warnings and runs there.
 
 Both scripts replace spaces in item names with underscores. They do not check for other weird characters in names (like slashes or similar).
+
+You don't need any of this if you are not using simbiology, or if simbiology has been fixed already.
 
 ## Script (in R) 
 
